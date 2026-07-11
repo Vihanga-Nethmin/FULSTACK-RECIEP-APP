@@ -63,6 +63,18 @@ export const MealAPI = {
     }
   },
 
+  // filter by main ingredient
+  filterByIngredient: async (ingredient) => {
+    try {
+      const response = await fetch(`${BASE_URL}/filter.php?i=${encodeURIComponent(ingredient)}`);
+      const data = await response.json();
+      return data.meals || [];
+    } catch (error) {
+      console.error("Error filtering by ingredient:", error);
+      return [];
+    }
+  },
+
   // filter by category
   filterByCategory: async (category) => {
     try {
