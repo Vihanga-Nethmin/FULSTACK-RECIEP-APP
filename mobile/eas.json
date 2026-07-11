@@ -10,9 +10,6 @@
     },
     "preview": {
       "distribution": "internal",
-      "npmArgs": [
-        "--force"
-      ],
       "android": {
         "buildType": "apk"
       }
