@@ -1,1 +1,1 @@
-export const API_URL = "http://192.168.8.101:5001/api";
+export const API_URL = "https://recipeappbackend-iihseasc.b4a.run/api";
