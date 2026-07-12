@@ -1,1 +1,1 @@
-export const API_URL = "https://recipeappbackend-u824r4t5.b4a.run";
+export const API_URL = "https://recipe-backend-production-33d4.up.railway.app/api/recipes";
